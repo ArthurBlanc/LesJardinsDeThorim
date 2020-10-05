@@ -213,7 +213,7 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   .section3 {
       background: #CCCCCC;
   }
-
+  
   .section3 header {
       background: #EEEEEE;
   }
@@ -227,6 +227,61 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   /* ---------------------------------------- */
   /* ==            SECTION 4                */
   /*---------------------------------------- */
+  .section4 {
+      background: #EEEEEE;
+  }
+  
+  .section4 header {
+      background: #333333;
+      color: #FFF;
+  }
+  
+  .section4 header p {
+      margin-top: -0.5em; /* Retire de la marge haut sur le paragraphe du header de la S04 */
+  }
+  
+  .section4-content h2 {
+      margin: 0.2em 0; /* Ajoute de la marge haut-bas sur les h2 du contenu de la S04 */
+  }
+  
+  /*     Section 4 Article      */
+  
+  .section4-card-container {
+      display: flex;
+  }
+  
+  .section4-card {
+      background: #999999;
+      margin-right: 1em; /* Espace entre les cartes de la S04 */
+      padding: 1em; /* Padding dans les cartes de la S04 */
+  }
+  
+  .section4-card img {
+      border: 2px solid #666666;
+  }
+  
+  .section4-card-content {
+      text-align: center; /* Centre le texte des cartes de la S04 */
+  }
+  
+  .section4-card-content p {
+      margin-bottom: 1em; /* Ajoute de la marge bas sur les paragraphes des cartes de la S04 */
+  }
+  
+  .section4-card-social {
+      display: flex;
+      justify-content: space-evenly; /* Les icones des réseaux sociaux sont répartis équitablement
+      Tous les éléments sont séparés par le même espace  */
+  }
+  
+  .section4-card-social a { /* Taille des icones des réseaux sociaux */
+      width: 2em;
+      height: 2em;
+  }
+  
+  .section4-card-social img {
+      border: none; /* Retire les bordures des icones des réseaux sociaux */
+  }
   
   /* ---------------------------------------- */
   /* ==            SECTION 5                */
