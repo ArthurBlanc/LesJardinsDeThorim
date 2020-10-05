@@ -1,0 +1,164 @@
+/* ---------------------------------------- */
+/* ==            SUMMARY              */
+/*---------------------------------------- */
+
+		/* == COLOR CODES  */
+		/* == FONT  */
+		/* == GENERAL  */
+		/* == HEADER  */
+		/* == SECTION 1  */
+		/* == SECTION 2  */
+		/* == SECTION 3  */
+		/* == SECTION 4  */
+		/* == SECTION 5  */
+		/* == FOOTER  */
+		/* == MEDIA QUERIES  */
+
+/* ---------------------------------------- */
+/* ==       COLOR CODES           */
+/*---------------------------------------- */
+
+/*
+Black (text) :            						#000
+Green (Body BG, BG S2 Card, BG S5 Header) : 	#6AA84F
+Dark Green (Main Header BG) :    				#274E13
+Light Gray (BG S1) : 							#274E13
+Light Gray 2 (BG S3 Header, BG S4-S5) : 		#EEEEEE
+Gray (BG S2 Header, BG S3) : 					#CCCCCC
+Gray 2 (BG S4 Card): 							#999999
+Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
+*/
+
+/* ---------------------------------------- */
+/* ==              FONT                 */
+/*---------------------------------------- */
+
+@font-face {
+    font-family: 'AlexBrush';
+    src: url('assets/font/AlexBrush-Regular.ttf')  format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'OpenSans';
+    src: url('assets/font/OpenSans-Regular.ttf')  format('truetype');
+  }
+  
+  * {
+      font-family: "OpenSans", sans-serif; 
+      font-size: 1em;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+      font-family: "AlexBrush", sans-serif;
+  }
+  
+  h1 {
+      font-size: 2em;
+  }
+  
+  h2 {
+      font-size: 1.7em;
+  }
+  
+  h3 {
+      font-size: 1.4em;
+  }
+  
+  /* ---------------------------------------- */
+  /* ==            GENERAL                */
+  /*---------------------------------------- */
+  
+  body {
+      background: #6AA84F;
+      margin: 0;
+  }
+  
+  .main-container {
+      max-width: 960px; /* Largeur maximale du conteneur principal */
+      margin: 0 auto; /* Centrer horizontalement le conteneur principal */
+  }
+  
+  img { /* Rendre les images responsive */
+      max-width: 100%;
+      max-height: 100%;
+      height: auto;
+      width: auto;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+      margin: 0; /* Retire les marges des titres */
+  }
+  
+  /* ---------------------------------------- */
+  /* ==            HEADER                */
+  /*---------------------------------------- */
+  
+  .main-header {
+      background: #274E13;
+      padding: 0 4em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .logo {
+      max-width: 20%; /* Largeur maximale du logo */
+      padding: 1em 0;
+  }
+  
+  /*     Navigation      */
+  
+  nav {
+      width: 80%; /* Largeur du menu */
+      font-size: 1.1em;
+  }
+  
+  nav a {
+      color: #FFF;
+      text-decoration: none; /* Retire le soulignage des liens du menu de navigation */
+      font-weight: bold;
+  }
+  
+  nav a:hover {
+      text-decoration: underline; /* Soulignage des liens du menu de navigation en hover */
+  }
+  
+  nav ul {
+      display: flex;
+      justify-content: flex-end; /* Les menus sont répartis équitablement
+      Le bord du premier est aligné sur le début du conteneur et la fin du dernier est alignée sur la fin du conteneur */
+      list-style: none; /* Retire les puces du menu de navigation */
+      padding: 0; /* Retire le padding du menu */
+  }
+  
+  nav li {
+      margin-left: 1em;
+  }
+  
+  /* ---------------------------------------- */
+  /* ==            SECTION 1                */
+  /*---------------------------------------- */
+  
+  /* ---------------------------------------- */
+  /* ==            SECTION 2                */
+  /*---------------------------------------- */
+  
+  /* ---------------------------------------- */
+  /* ==            SECTION 3                */
+  /*---------------------------------------- */
+  
+  /* ---------------------------------------- */
+  /* ==            SECTION 4                */
+  /*---------------------------------------- */
+  
+  /* ---------------------------------------- */
+  /* ==            SECTION 5                */
+  /*---------------------------------------- */
+  
+  /* ---------------------------------------- */
+  /* ==            FOOTER                 */
+  /*---------------------------------------- */
+  
+  /* ---------------------------------------- */
+  /* ==       MEDIAS QUERIES        */
+  /*---------------------------------------- */
