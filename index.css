@@ -176,6 +176,36 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   /* ==            SECTION 2                */
   /*---------------------------------------- */
   
+  .section2 {
+      background: #333333;
+  }
+  
+  .section2 header {
+      background: #CCCCCC;
+  }
+  
+  .section2-content {
+      display: flex;
+  }
+  
+  .section2-card {
+      background: #6AA84F;
+      margin-right: 1em; /* Espace entre les cartes de la S02 */
+      padding: 1em; /* Padding dans les cartes de la S02 */
+  }
+  
+  .section2-card img {
+      border: 2px solid #666666;
+  }
+  
+  .section2-card-content {
+      text-align: center; /* Centre le texte des cartes de la S02 */
+  }
+  
+  .section2-card-content p {
+      color: #FFF;
+  }
+  
   /* ---------------------------------------- */
   /* ==            SECTION 3                */
   /*---------------------------------------- */
