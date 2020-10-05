@@ -210,6 +210,20 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   /* ==            SECTION 3                */
   /*---------------------------------------- */
   
+  .section3 {
+      background: #CCCCCC;
+  }
+
+  .section3 header {
+      background: #EEEEEE;
+  }
+  
+  .section3 header p {
+      text-align: center; /* Centre le texte du paragraphe du header de la S03 */
+      max-width: 40%; /* Largeur maximale du paragraphe du header de la S03 */
+      margin: auto; /* Centre horizontalement le paragraphe du header de la S03 */
+  }
+  
   /* ---------------------------------------- */
   /* ==            SECTION 4                */
   /*---------------------------------------- */
