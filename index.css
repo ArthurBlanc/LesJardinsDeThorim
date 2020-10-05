@@ -283,6 +283,47 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
       border: none; /* Retire les bordures des icones des réseaux sociaux */
   }
   
+  /*     Section 4 Customer Reviews     */
+  
+  .section4-customer-reviews-content {
+      display: flex;
+  }
+  .section4-customer-reviews-img-container {
+      width: 30%; /* Largeur du containeur de l'image des avis client */
+  }
+  
+  .section4-customer-reviews-img {
+      width: 100%; /* Largeur de l'image des avis client */
+      border: 2px solid #666666;
+  }
+  
+  .section4-customer-story {
+      width: 70%; /* Largeur du conteneur du témoignage des avis client */
+      margin-left: 2em; /* Espace entre l'image et le témoignage des avis client */
+      background: #FFF;
+      display: flex;
+      align-items: center; /* Centre verticalement le texte des avis client */
+  }
+  
+  .section4-customer-story p {
+      margin-left: 1em; /* Espace le texte du témoignage des avis client */
+      font-weight: bold;
+  }
+  
+  /*     Section 4 Gallery     */
+  
+  .section4-gallery-img-container {
+      display: flex;
+  }
+  
+  .section4-gallery-img-container img {
+      border: 2px solid #666666;
+  }
+  
+  .section4-gallery-img {
+      margin-right: 1em; /* Espace entre les images de la galerie photo */
+  }
+  
   /* ---------------------------------------- */
   /* ==            SECTION 5                */
   /*---------------------------------------- */
