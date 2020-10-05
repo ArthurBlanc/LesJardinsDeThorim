@@ -64,6 +64,14 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
       font-size: 1.4em;
   }
   
+  .section-padding {
+      padding: 1em 4em; /* Padding général sur les sections */
+  }
+  
+  .last {
+      margin-right: 0 !important; /* Retire la marge droite des derniers éléments */
+  }
+  
   /* ---------------------------------------- */
   /* ==            GENERAL                */
   /*---------------------------------------- */
@@ -138,6 +146,31 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   /* ---------------------------------------- */
   /* ==            SECTION 1                */
   /*---------------------------------------- */
+  
+  .section1 {
+      background: #EEEEEE;
+  }
+  
+  .section1-header {
+      padding-bottom: 0; /* Retire le padding bas du header de la S01 */
+  }
+  
+  .section1-content {
+      padding-top: 0; /* Retire le padding haut du contenu de la S01 */		
+  }
+  
+  .section1-img-container {
+      display: flex;
+      margin-top: 1.5em;
+  }
+  
+  .section1-img {
+      margin-right: 1em; /* Espace entre les deux images de la S01 */
+  }
+  
+  .section1 img {
+      border: 2px solid #666666;
+  }
   
   /* ---------------------------------------- */
   /* ==            SECTION 2                */
