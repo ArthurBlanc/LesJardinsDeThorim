@@ -328,6 +328,118 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   /* ==            SECTION 5                */
   /*---------------------------------------- */
   
+  .section5 {
+      background: #EEEEEE;
+  }
+  
+  /*     Section 5 Header     */
+  
+  .section5 header {
+      background: #6AA84F;
+      color: #FFF;
+      display: flex;
+      justify-content: space-between; /* Les containeur du header de la S05 sont répartis équitablement
+      Le bord du premier est aligné sur le début du conteneur et la fin du dernier est alignée sur la fin du conteneur */
+  }
+  
+  .section5-header-social-container {
+      display: flex;
+  }
+  
+  .section5-header-social-container a {
+      color: #fff;
+  }
+  
+  .section5-header-social-container img {
+      height: 2em; /* Hauteur des icones des liens des réseaux sociaux */
+      margin-right: 0.5em; /* Espace entre les icones et le texte des liens des réseaux sociaux */
+  }
+  
+  .section5-header-social-container {
+      display: flex;
+  }
+  
+  .section5-header-social a {
+      display: flex;
+      align-items: center; /* Centre verticalement le texte des liens des réseaux sociaux */
+      margin-left: 3em; /* Espace entre les liens des réseaux sociaux */
+  }
+  
+  .section5-header-social a:hover {
+      color: #EEE;
+  }
+  
+  /*     Section 5 Title    */
+  
+  .section5-content-title {
+      text-align: center; /* Centre horizontalement le title de la S05 */
+      color: #6AA84F;
+  }
+  
+  .section5-content-title h2 {
+      text-decoration: underline; /* Souligne le h2 de la S05 */
+  }
+  
+  .section5-content-title p {
+      margin-bottom: 1em;  /* Ajoute de la marge bas sur le paragraphe du titre de la S05 */
+  }
+  
+  /*     Section 5 Content    */
+  
+  .section5-contact {
+      display: flex;
+  }
+  
+  .section5-contact-information {
+      min-width: 30%; /* Largeur minimum des information de contact */
+      margin-top: 2em; /* Ajoute de la marge haut des informations de contact */
+      font-weight: bold;
+  }
+  
+  .section5-contact-information ul {
+      list-style: none; /* Retire les puces de la liste des informations de contact*/
+  }
+  
+  /*     Section 5 Contact Form    */
+  
+  .section5-contact-form-line1 {
+      display: flex;
+  }
+  
+  .section5-contact-form-line1 input, .section5-contact-form textarea{
+      border: none; /* Retire les bordures des champs du formulaire*/
+      background: #B3B3B3;
+  }
+  
+  .section5-contact-form-line1 input {
+      width: 100%; /* Largeur des champ de la premiere ligne du formulaire, dans leurs conteneur */
+      margin-bottom: 1em; /* Marge bas des champ de formulaire */
+      height: 2em; /* Hauteur des champs du formulaire de la premier ligne */
+  }
+  
+  .section5-contact-form-input {
+      margin-right: 1em; /* Espace entre les champs du formulaire */
+  }
+  
+  .section5-contact-form textarea {
+      width: 100%; /* Largeur du champ message du formulaire */
+      height: 8em; /* Hauteur du champ message du formulaire */
+  }
+  
+  .section5-contact-form-button {
+      background: #6AA84F;
+      border: 1px solid #666666;
+      color: #fff;
+      padding: 0.5em 2em;
+      border-radius: 2%;
+      margin: 1em 0;
+      transition: 0.3s; /* Temps de transition des animations du bouton du formulaire */
+  }
+  
+  .section5-contact-form-button:hover {
+      background: #274E13;
+  }
+  
   /* ---------------------------------------- */
   /* ==            FOOTER                 */
   /*---------------------------------------- */
