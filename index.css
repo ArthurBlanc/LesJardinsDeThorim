@@ -444,6 +444,47 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   /* ==            FOOTER                 */
   /*---------------------------------------- */
   
+  .footer {
+      background: #333333;
+      display: flex;
+      justify-content: center; /* Groupe les colonnes du footer au centre */
+  }
+  
+  .footer-container {
+      width: 70%; /* Largeur du conteneur principal du footer */
+      display: flex;
+      justify-content: space-around; /* Les colonnes du footer sont répartis équitablement
+      À chaque extrémité, entre le bord du conteneur et le premier/dernier élément on a la moitié de l'espace appliqué entre chaque élément */
+      margin: 2em 0 4em 0; /* Marge haut-bas du conteneur principal du footer */
+  }
+  
+  .footer-column ul {
+      list-style: none; /* Retire les puces des listes des colonnes du footer */
+      padding-left: 0; /* Retire le padding gauche des listes des colonnes du footer */ 
+  }
+  .footer-column ul li {
+      line-height: 1.2em; /* Hauteur des lignes des listes des colonnes du footer */
+  }
+  
+  .footer-column a {
+      text-decoration: none; /* Retire le soulignage des liens des listes des colonnes du footer */
+      color: #fff;
+  }
+  
+  .footer-column a:hover {
+      text-decoration: underline; /* Soulignage les liens des listes des colonnes du footer en hover */
+  }
+  
+  .footer-column-title {
+      color: #6AA84F;
+  }
+  
+  .credit {
+      text-align: center; /* Centre horizontalement le texte des crédits */
+      color: #fff;
+      margin: 1.5em 0; /* Marge haut-bas des crédits */
+  }
+
   /* ---------------------------------------- */
   /* ==       MEDIAS QUERIES        */
   /*---------------------------------------- */
