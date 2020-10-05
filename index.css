@@ -64,14 +64,6 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
       font-size: 1.4em;
   }
   
-  .section-padding {
-      padding: 1em 4em; /* Padding général sur les sections */
-  }
-  
-  .last {
-      margin-right: 0 !important; /* Retire la marge droite des derniers éléments */
-  }
-  
   /* ---------------------------------------- */
   /* ==            GENERAL                */
   /*---------------------------------------- */
@@ -96,6 +88,15 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   h1, h2, h3, h4, h5, h6 {
       margin: 0; /* Retire les marges des titres */
   }
+  
+  .section-padding {
+      padding: 1em 4em; /* Padding général sur les sections */
+  }
+  
+  .last {
+      margin-right: 0 !important; /* Retire la marge droite des derniers éléments */
+  }
+  
   
   /* ---------------------------------------- */
   /* ==            HEADER                */
@@ -227,6 +228,7 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   /* ---------------------------------------- */
   /* ==            SECTION 4                */
   /*---------------------------------------- */
+  
   .section4 {
       background: #EEEEEE;
   }
@@ -484,7 +486,206 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
       color: #fff;
       margin: 1.5em 0; /* Marge haut-bas des crédits */
   }
-
+  
   /* ---------------------------------------- */
   /* ==       MEDIAS QUERIES        */
   /*---------------------------------------- */
+  
+  /*     Smartphone    */
+  @media screen and (max-width: 600px) {
+  
+  /*     GENERAL      */
+  h1, h2, h3, h4, h5, h6 {
+      text-align: center;
+  }
+  
+  h1 {
+      font-size: 3em;
+  }
+  
+  h2 {
+      font-size: 2em;
+  }
+  
+  h3 {
+      font-size: 2em;
+  }
+  
+  p {
+      text-align: justify;
+      font-size: 1.2em;
+  }
+  
+  .section-padding {
+      padding: 1em 2em;
+  }
+  
+  /*     HEADER      */
+  .main-header {
+      flex-wrap: wrap;
+  }
+  
+  .logo {
+      max-width: 100%;
+  }
+  
+  nav {
+      width: 100%;
+  }
+  
+  nav ul {
+      flex-wrap: wrap;
+      padding: 0;
+  }
+  
+  nav li {
+      width: 100%;
+      text-align: center;
+      margin: 0.8em 0;
+  }
+  
+  /*     SECTION 1      */
+  .section1-header {
+      padding-bottom: 0;
+  }
+  
+  .section1-content {
+      padding-top: 0;
+  }
+  
+  .section1-img-container {
+      flex-wrap: wrap;
+  }
+  .section1-img {
+      margin-right: 0;
+  }
+  
+  /*     SECTION 2      */
+  .section2-content {
+      flex-wrap: wrap;
+  }
+  
+  .section2-card {
+      margin-right: 0;
+      margin-bottom: 1em;
+  }
+  
+  /*     SECTION 3      */
+  .section3 header p {
+      max-width: 80%;
+  }
+  
+  /*     SECTION 4      */
+  .section4 header p {
+      text-align: center;
+  }
+  
+  .section4-card-container {
+      flex-wrap: wrap;
+  }
+  
+  .section4-card {
+      margin-right: 0;
+      margin-bottom: 1em;
+  }
+  
+  .section4-card-social a {
+      width: 3em;
+      height: 3em;
+  }
+  
+  .section4-customer-reviews-content {
+      flex-wrap: wrap;
+  }
+  
+  .section4-customer-reviews-img-container {
+      width: 100%;
+  }
+  
+  .section4-customer-reviews-img {
+      margin-bottom: 1em;
+      width: auto;
+      height: auto;
+  }
+  
+  .section4-customer-story {
+      width: 100%;
+      margin-left: 0;
+      justify-content: center;
+  }
+  
+  .section4-customer-story p {
+      margin-left: 0;
+  }
+  
+  .section4-gallery-img-container {
+      flex-wrap: wrap;
+  }
+  
+  .section4-gallery-img {
+      margin-right: 0;
+  }
+  
+  /*     SECTION 5      */
+  .section5 header {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .section5-header-social-container {
+      width: 100%;
+      justify-content: space-around;
+  }
+  
+  .section5-header-social a {
+      margin-left: 0;
+  }
+  
+  .section5-contact {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .section5-content-title p {
+      text-align: center;
+  }
+  
+  .section5-contact-form-line1 {
+      flex-wrap: wrap;
+  }
+  
+  .section5-contact-form-input {
+      margin: 0;
+      width: 100%;
+  }
+  
+  .section5-contact-information {
+      width: 80%;
+      text-align: center;
+      margin-top: 0em;
+  }
+  
+  .section5-contact-information ul {
+      padding: 0;
+  }
+  
+  .section5-contact-form-button {
+      width: 100%;
+  }
+  
+  /*     FOOTER      */
+  .footer-container {
+      flex-wrap: wrap;
+      margin: 1em 0;
+  }
+  
+  .footer-column {
+      width: 50%;
+      text-align: center;
+  }
+  
+  .credit {
+      margin: 1.5em 2em;
+  }
+  } 
+  
