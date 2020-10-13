@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zxx">
 	<head>
+		<!-- Meta tags -->
+	    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <title>Les Jardins de Thorim</title>
 	    <meta name=description content="Les Jardins de Thorim">
 	    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-	    <!-- Meta tags -->
-	    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <!-- Favicon -->
 	    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/favicon/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="assets/icons/favicon/apple-icon-60x60.png">
@@ -32,7 +32,7 @@
 		<div class="main-container">
 		  	<!-- HEADER -->
 		  	<header class="main-header">
-		  		<a href="#" class="logo"><img src="assets/icons/logo_jardins_de_thorim.png" alt="Logo des Jardins de Thorim"></a>
+		  		<a href="#" class="logo"><img src="assets/icons/logo_jardins_de_thorim.png" alt="Logo des Jardins de Thorim"/></a>
 		  		<nav>
 		  			<ul>
 				  		<li><a href="#section1">Section 1</a></li>
@@ -52,14 +52,17 @@
 		  			</header>
 		  			<div class="section1-content section-padding">
 		  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor lectus ante. Morbi ut purus maximus, blandit orci non, malesuada nisi. Nunc euismod dui sit amet mi cursus faucibus. Fusce volutpat iaculis consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. In viverra malesuada quam ac pharetra. Sed fringilla nunc ut tellus vestibulum, nec congue mi dapibus. Aenean pulvinar nunc id ipsum molestie, ut ultricies purus maximus. </p>
-		  				<div class="section1-img-container">
-		  					<div class="section1-img">
-		  						<img src="assets/img/garden-174962_1920.jpg" alt="">
-		  					</div>
-		  					
-		  					<div class="section1-img last">
-		  						<img src="assets/img/garden-646942_1920.jpg" alt="">
-		  					</div>
+		  				<div class="section1-card-container">
+		  					<div class="section1-card">
+			  					<div class="section1-card-img">
+			  						<img src="assets/img/garden-174962_1920.jpg" alt="#"/>
+			  					</div>
+			  				</div>
+			  				<div class="section1-card">
+			  					<div class="section1-card-img">
+			  						<img src="assets/img/garden-646942_1920.jpg" alt="#"/>
+			  					</div>
+			  				</div>	
 		  				</div>
 		  			</div>
 		  		</section>
@@ -69,27 +72,33 @@
 		  				<h1>Section Menu 2</h1>
 		  			</header>
 		  			<div class="section2-content section-padding">
-		  				<div class="section2-card">
-		  					<img src="assets/img/castle-garden-park-725x544.jpg" alt="" class="section2-card-img">
+		  				<article class="section2-card">
+		  					<div class="section2-card-img">
+		  						<img src="assets/img/castle-garden-park-725x544.jpg" alt="#"/>
+		  					</div>
 		  					<div class="section2-card-content">
 		  						<h2>Title 1</h2>
 		  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor lectus ante. Morbi ut purus maximus, blandit orci non, malesuada nisi. Nunc euismod dui sit amet mi cursus faucibus. Fusce volutpat iaculis consequat. </p>
 		  					</div>
-		  				</div>
-		  				<div class="section2-card">
-		  					<img src="assets/img/castle-labyrinth-garden-park-725x544.jpg" alt="" class="section2-card-img">
+		  				</article>
+		  				<article class="section2-card">
+		  					<div class="section2-card-img">
+		  						<img src="assets/img/castle-labyrinth-garden-park-725x544.jpg" alt="#"/>
+		  					</div>
 		  					<div class="section2-card-content">
 		  						<h2>Title 2</h2>
 		  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor lectus ante. Morbi ut purus maximus, blandit orci non, malesuada nisi. Nunc euismod dui sit amet mi cursus faucibus. Fusce volutpat iaculis consequat. </p>
 		  					</div>
-		  				</div>	  				
-		  				<div class="section2-card last">
-		  					<img src="assets/img/castle-park-725x544.jpg" alt="" class="section2-card-img">
+		  				</article>  				
+		  				<article class="section2-card">
+		  					<div class="section2-card-img">
+		  						<img src="assets/img/castle-park-725x544.jpg" alt="#"/>
+		  					</div>
 		  					<div class="section2-card-content">
 		  						<h2>Title 3</h2>
 		  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor lectus ante. Morbi ut purus maximus, blandit orci non, malesuada nisi. Nunc euismod dui sit amet mi cursus faucibus. Fusce volutpat iaculis consequat. </p>
 		  					</div>
-		  				</div>
+		  				</article>
 		  			</div>
 		  		</section>
 		  		<!-- SECTION 3 -->
@@ -110,60 +119,70 @@
 		  			</header>
 		  			<div class="section4-content section-padding">
 		  				<div class="section4-card-container">
-			  				<div class="section4-card">
-			  					<img src="assets/img/rhs-hyde-hall-869076_1920.jpg" alt="" class="section4-card-img">
+			  				<article class="section4-card">
+			  					<div class="section4-card-img">
+			  						<img src="assets/img/rhs-hyde-hall-869076_1920.jpg" alt="#"/>
+			  					</div>
 			  					<div class="section4-card-content">
 			  						<h3>Lorem Ipsum</h3>
 			  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor lectus ante.</p>
 			  						<div class="section4-card-social">
-			  							<a href="#"><img src="assets/icons/1437186065_03-twitter.png" alt="Logo Twitter"></a>
-			  							<a href="#"><img src="assets/icons/1437186058_06-facebook.png" alt="Logo Facebook"></a>
-			  							<a href="#"><img src="assets/icons/1437186068_Socialmedia_icons_LinkedIn.png" alt="Logo LinkedIn" class="last"></a>
+			  							<a href="#"><img src="assets/icons/1437186065_03-twitter.png" alt="Logo Twitter"/></a>
+			  							<a href="#"><img src="assets/icons/1437186058_06-facebook.png" alt="Logo Facebook"/></a>
+			  							<a href="#"><img src="assets/icons/1437186068_Socialmedia_icons_LinkedIn.png" alt="Logo LinkedIn"/></a>
 			  						</div>
 			  					</div>
-			  				</div>
-			  				<div class="section4-card">
-			  					<img src="assets/img/knot-garden-58452_1920.jpg" alt="" class="section4-card-img">
+			  				</article>
+			  				<article class="section4-card">
+			  					<div class="section4-card-img">
+			  						<img src="assets/img/knot-garden-58452_1920.jpg" alt="#"/>
+			  					</div>
 			  					<div class="section4-card-content">
 			  						<h3>Lorem Ipsum</h3>
 			  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor lectus ante.</p>
 			  						<div class="section4-card-social">
-			  							<a href="#"><img src="assets/icons/1437186065_03-twitter.png" alt="Logo Twitter"></a>
-			  							<a href="#"><img src="assets/icons/1437186058_06-facebook.png" alt="Logo Facebook"></a>
-			  							<a href="#"><img src="assets/icons/1437186068_Socialmedia_icons_LinkedIn.png" alt="Logo LinkedIn" class="last"></a>
+			  							<a href="#"><img src="assets/icons/1437186065_03-twitter.png" alt="Logo Twitter"/></a>
+			  							<a href="#"><img src="assets/icons/1437186058_06-facebook.png" alt="Logo Facebook"/></a>
+			  							<a href="#"><img src="assets/icons/1437186068_Socialmedia_icons_LinkedIn.png" alt="Logo LinkedIn"/></a>
 			  						</div>
 			  					</div>
-			  				</div>
-			  				<div class="section4-card">
-			  					<img src="assets/img/notebook-405755_1920.jpg" alt="" class="section4-card-img">
+			  				</article>
+			  				<article class="section4-card">
+			  					<div class="section4-card-img">
+			  						<img src="assets/img/notebook-405755_1920.jpg" alt="#"/>
+			  					</div>
 			  					<div class="section4-card-content">
 			  						<h3>Lorem Ipsum</h3>
 			  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor lectus ante.</p>
 			  						<div class="section4-card-social">
-			  							<a href="#"><img src="assets/icons/1437186065_03-twitter.png" alt="Logo Twitter"></a>
-			  							<a href="#"><img src="assets/icons/1437186058_06-facebook.png" alt="Logo Facebook"></a>
-			  							<a href="#"><img src="assets/icons/1437186068_Socialmedia_icons_LinkedIn.png" alt="Logo LinkedIn" class="last"></a>
+			  							<a href="#"><img src="assets/icons/1437186065_03-twitter.png" alt="Logo Twitter"/></a>
+			  							<a href="#"><img src="assets/icons/1437186058_06-facebook.png" alt="Logo Facebook"/></a>
+			  							<a href="#"><img src="assets/icons/1437186068_Socialmedia_icons_LinkedIn.png" alt="Logo LinkedIn"/></a>
 			  						</div>
 			  					</div>
-			  				</div>
-			  				<div class="section4-card last">
-			  					<img src="assets/img/wooden-791421_1920.jpg" alt="" class="section4-card-img">
+			  				</article>
+			  				<article class="section4-card">
+			  					<div class="section4-card-img">
+			  						<img src="assets/img/wooden-791421_1920.jpg" alt="#"/>
+			  					</div>
 			  					<div class="section4-card-content">
 			  						<h3>Lorem Ipsum</h3>
 			  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor lectus ante.</p>
 			  						<div class="section4-card-social">
-			  							<a href="#"><img src="assets/icons/1437186065_03-twitter.png" alt="Logo Twitter"></a>
-			  							<a href="#"><img src="assets/icons/1437186058_06-facebook.png" alt="Logo Facebook"></a>
-			  							<a href="#"><img src="assets/icons/1437186068_Socialmedia_icons_LinkedIn.png" alt="Logo LinkedIn" class="last"></a>
+			  							<a href="#"><img src="assets/icons/1437186065_03-twitter.png" alt="Logo Twitter"/></a>
+			  							<a href="#"><img src="assets/icons/1437186058_06-facebook.png" alt="Logo Facebook"/></a>
+			  							<a href="#"><img src="assets/icons/1437186068_Socialmedia_icons_LinkedIn.png" alt="Logo LinkedIn"/></a>
 			  						</div>
 			  					</div>
-			  				</div>		  						  				
+			  				</article>		  						  				
 			  			</div>
 			  			<div class="section4-customer-reviews">
 			  				<h2>Avis Client</h2>
 			  				<div class="section4-customer-reviews-content">
 			  					<div class="section4-customer-reviews-img-container">
-			  						<img src="assets/img/landscape-400312_1920.jpg" class="section4-customer-reviews-img" alt="">
+			  						<div class="section4-customer-reviews-img">
+			  							<img src="assets/img/landscape-400312_1920.jpg"  alt="#"/>
+			  						</div>
 			  					</div>
 				  				<div class="section4-customer-story">
 				  					<p>TÉMOIGNAGE</p>
@@ -173,18 +192,26 @@
 			  			<div class="section4-gallery">
 			  				<h2>Galerie Photo</h2>
 			  				<div class="section4-gallery-img-container">
-			  					<div class="section4-gallery-img">
-			  						<img src="assets/img/lawn-care-643563_1280.jpg" alt="">
-			  					</div>
-				  				<div class="section4-gallery-img">
-				  					<img src="assets/img/lawn-care-643555_1280.jpg" alt="">
+			  					<div class="section4-gallery-card">
+				  					<div class="section4-gallery-img">
+				  						<img src="assets/img/lawn-care-643563_1280.jpg" alt="#"/>
+				  					</div>
 				  				</div>
-				  				<div class="section4-gallery-img">
-				  					<img src="assets/img/lawn-care-643557_1280.jpg" alt="">
+				  				<div class="section4-gallery-card">
+					  				<div class="section4-gallery-img">
+					  					<img src="assets/img/lawn-care-643555_1280.jpg" alt="#"/>
+					  				</div>
 				  				</div>
-				  				<div class="section4-gallery-img last">
-				  					<img src="assets/img/lawn-care-643561_1280.jpg" alt="">
-				  				</div>
+				  				<div class="section4-gallery-card">
+					  				<div class="section4-gallery-img">
+					  					<img src="assets/img/lawn-care-643557_1280.jpg" alt="#"/>
+					  				</div>
+					  			</div>
+					  			<div class="section4-gallery-card">
+					  				<div class="section4-gallery-img">
+					  					<img src="assets/img/lawn-care-643561_1280.jpg" alt="#"/>
+					  				</div>
+					  			</div>
 				  			</div>
 			  			</div>
 		  			</div>  			
@@ -194,8 +221,8 @@
 		  			<header class="section5-header section-padding">
 		  				<h1>Section Menu 5</h1>
 		  				<div class="section5-header-social-container">
-		  					<div class="section5-header-social"><a href="#"><img src="assets/icons/1437186061_Socialmedia_icons_Facebook.png" alt="Logo Facebook">/facebook</a></div>
-		  					<div class="section5-header-social"><a href="#"><img src="assets/icons/1437186066_icon-social-twitter-outline.png" alt="Logo Twitter">@twitter</a></div>
+		  					<div class="section5-header-social"><a href="#"><img src="assets/icons/1437186061_Socialmedia_icons_Facebook.png" alt="Logo Facebook"/>/facebook</a></div>
+		  					<div class="section5-header-social"><a href="#"><img src="assets/icons/1437186066_icon-social-twitter-outline.png" alt="Logo Twitter"/>@twitter</a></div>
 		  				</div>
 		  			</header>
 		  			<div class="section5-content section-padding">
@@ -226,7 +253,7 @@
 					  						<label for="form-email">Email</label><br>
 					  						<input type="email" id="form-email" required>
 				  						</div>
-				  						<div class="section5-contact-form-input last">
+				  						<div class="section5-contact-form-input">
 					  						<label for="form-subject">Sujet du message</label><br>
 					  						<input type="text" id="form-subject" required>
 				  						</div>
@@ -246,37 +273,37 @@
 		        <div class="footer-column">
 		          <h3 class="footer-column-title">Titre</h3>
 		          	<ul>
-			          <li><a href="" class="footer-link">Item One</a></li>
-			          <li><a href="" class="footer-link">Item Two</a></li>
-			          <li><a href="" class="footer-link">Item Three</a></li>
-			          <li><a href="" class="footer-link">Item Four</a></li>
+			          <li><a href="#" class="footer-link">Item One</a></li>
+			          <li><a href="#" class="footer-link">Item Two</a></li>
+			          <li><a href="#" class="footer-link">Item Three</a></li>
+			          <li><a href="#" class="footer-link">Item Four</a></li>
 			        </ul>
 		        </div>
 		        <div class="footer-column">
 		          <h3 class="footer-column-title">Titre</h3>
 		          	<ul>
-			          <li><a href="" class="footer-link">Item One</a></li>
-			          <li><a href="" class="footer-link">Item Two</a></li>
-			          <li><a href="" class="footer-link">Item Three</a></li>
-			          <li><a href="" class="footer-link">Item Four</a></li>
+			          <li><a href="#" class="footer-link">Item One</a></li>
+			          <li><a href="#" class="footer-link">Item Two</a></li>
+			          <li><a href="#" class="footer-link">Item Three</a></li>
+			          <li><a href="#" class="footer-link">Item Four</a></li>
 			        </ul>
 		        </div>
 		        <div class="footer-column">
 		          <h3 class="footer-column-title">Titre</h3>
 		          	<ul>
-			          <li><a href="" class="footer-link">Item One</a></li>
-			          <li><a href="" class="footer-link">Item Two</a></li>
-			          <li><a href="" class="footer-link">Item Three</a></li>
-			          <li><a href="" class="footer-link">Item Four</a></li>
+			          <li><a href="#" class="footer-link">Item One</a></li>
+			          <li><a href="#" class="footer-link">Item Two</a></li>
+			          <li><a href="#" class="footer-link">Item Three</a></li>
+			          <li><a href="#" class="footer-link">Item Four</a></li>
 			        </ul>
 		        </div>
 		        <div class="footer-column">
 		          <h3 class="footer-column-title">Titre</h3>
 		          	<ul>
-			          <li><a href="" class="footer-link">Item One</a></li>
-			          <li><a href="" class="footer-link">Item Two</a></li>
-			          <li><a href="" class="footer-link">Item Three</a></li>
-			          <li><a href="" class="footer-link">Item Four</a></li>
+			          <li><a href="#" class="footer-link">Item One</a></li>
+			          <li><a href="#" class="footer-link">Item Two</a></li>
+			          <li><a href="#" class="footer-link">Item Three</a></li>
+			          <li><a href="#" class="footer-link">Item Four</a></li>
 			        </ul>
 		        </div>
 		      </div>

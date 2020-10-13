@@ -79,10 +79,8 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   }
   
   img { /* Rendre les images responsive */
-      max-width: 100%;
-      max-height: 100%;
+      width: 100%;
       height: auto;
-      width: auto;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -92,11 +90,6 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   .section-padding {
       padding: 1em 4em; /* Padding général sur les sections */
   }
-  
-  .last {
-      margin-right: 0 !important; /* Retire la marge droite des derniers éléments */
-  }
-  
   
   /* ---------------------------------------- */
   /* ==            HEADER                */
@@ -160,17 +153,27 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
       padding-top: 0; /* Retire le padding haut du contenu de la S01 */		
   }
   
-  .section1-img-container {
+  .section1-card-container {
       display: flex;
       margin-top: 1.5em;
+      justify-content: space-between;
   }
   
-  .section1-img {
-      margin-right: 1em; /* Espace entre les deux images de la S01 */
+  .section1-card {
+      width: 49%;
   }
   
-  .section1 img {
+  .section1-card-img {
+      position: relative;
+      padding-top: calc(27% / 46 * 100);
+  }
+  
+  .section1-card-img img {
       border: 2px solid #666666;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
   }
   
   /* ---------------------------------------- */
@@ -187,16 +190,27 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   
   .section2-content {
       display: flex;
+      justify-content: space-between;
   }
   
   .section2-card {
       background: #6AA84F;
-      margin-right: 1em; /* Espace entre les cartes de la S02 */
+      width: 27%;
       padding: 1em; /* Padding dans les cartes de la S02 */
   }
   
-  .section2-card img {
+  .section2-card-img {
+      position: relative;
+      padding-top: calc(18% / 25 * 100);
+      margin-bottom: 1rem;
+  }
+  
+  .section2-card-img img {
       border: 2px solid #666666;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
   }
   
   .section2-card-content {
@@ -250,16 +264,27 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   
   .section4-card-container {
       display: flex;
+      justify-content: space-between;
   }
   
   .section4-card {
       background: #999999;
-      margin-right: 1em; /* Espace entre les cartes de la S04 */
+      width: 19%;
       padding: 1em; /* Padding dans les cartes de la S04 */
   }
   
-  .section4-card img {
+  .section4-card-img {
+      position: relative;
+      padding-top: calc(12% / 19 * 100);
+      margin-bottom: 1rem;
+  }
+  
+  .section4-card-img img {
       border: 2px solid #666666;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
   }
   
   .section4-card-content {
@@ -272,8 +297,9 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   
   .section4-card-social {
       display: flex;
-      justify-content: space-evenly; /* Les icones des réseaux sociaux sont répartis équitablement
-      Tous les éléments sont séparés par le même espace  */
+      justify-content: space-between;
+      width: 75%;
+      margin: 0 auto;
   }
   
   .section4-card-social a { /* Taille des icones des réseaux sociaux */
@@ -289,14 +315,23 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   
   .section4-customer-reviews-content {
       display: flex;
+      margin-bottom: 1rem;
   }
   .section4-customer-reviews-img-container {
       width: 30%; /* Largeur du containeur de l'image des avis client */
   }
   
   .section4-customer-reviews-img {
-      width: 100%; /* Largeur de l'image des avis client */
+      position: relative;
+      padding-top: calc(16% / 31 * 100);
+  }
+  
+  .section4-customer-reviews-img img {
       border: 2px solid #666666;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
   }
   
   .section4-customer-story {
@@ -316,10 +351,24 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   
   .section4-gallery-img-container {
       display: flex;
+      justify-content: space-between;
   }
   
-  .section4-gallery-img-container img {
+  .section4-gallery-card {
+      width: 24%;
+  }
+  
+  .section4-gallery-img {
+      position: relative;
+      padding-top: calc(16% / 31 * 100);
+  }
+  
+  .section4-gallery-img img {
       border: 2px solid #666666;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
   }
   
   .section4-gallery-img {
@@ -406,6 +455,7 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   
   .section5-contact-form-line1 {
       display: flex;
+      justify-content: space-between;
   }
   
   .section5-contact-form-line1 input, .section5-contact-form textarea{
@@ -420,7 +470,7 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   }
   
   .section5-contact-form-input {
-      margin-right: 1em; /* Espace entre les champs du formulaire */
+      width: 32%;
   }
   
   .section5-contact-form textarea {
@@ -553,10 +603,16 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
       padding-top: 0;
   }
   
-  .section1-img-container {
+  .section1-card {
+      width: 100%;
+      margin-bottom: 1rem;
+  }
+  
+  .section1-card-container {
       flex-wrap: wrap;
   }
-  .section1-img {
+  
+  .section1-card-img {
       margin-right: 0;
   }
   
@@ -568,6 +624,7 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   .section2-card {
       margin-right: 0;
       margin-bottom: 1em;
+      width: 100%;
   }
   
   /*     SECTION 3      */
@@ -587,6 +644,7 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   .section4-card {
       margin-right: 0;
       margin-bottom: 1em;
+      width: 100%;
   }
   
   .section4-card-social a {
@@ -616,6 +674,11 @@ Dark Gray (BG S2, BG S4 Header, BG Footer): 	#333333
   
   .section4-customer-story p {
       margin-left: 0;
+  }
+  
+  .section4-gallery-card {
+      width: 100%;
+      margin-bottom: 1rem;
   }
   
   .section4-gallery-img-container {
